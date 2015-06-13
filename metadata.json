@@ -1,0 +1,14 @@
+{
+  "name": "hggh-awesant",
+  "version": "0.0.1",
+  "author": "hggh",
+  "summary": "Puppet Module for Awesant log shipper",
+  "license": "Apache 2.0",
+  "source": "https://github.com/hggh/puppet-awesant",
+  "project_page": "https://github.com/hggh/puppet-awesant",
+  "issues_url": "https://github.com/hggh/puppet-awesant/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+

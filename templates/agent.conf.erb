@@ -1,0 +1,20 @@
+# Managed by Puppet
+
+input {
+<% @input_include.each do |i| -%>
+  include <%= i %>
+<% end -%>
+}
+
+output {
+<% @output_include.each do |i| -%>
+  include <%= i %>
+<% end -%>
+}
+
+logger {
+    file {
+        filename <%= @awesant_logfile %>
+        maxlevel <%= @log_level %>
+    }
+}

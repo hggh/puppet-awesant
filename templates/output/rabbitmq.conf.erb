@@ -1,0 +1,19 @@
+# Puppet: <%= @name %>
+
+rabbitmq {
+  type <%= @type %>
+  host <%= @host %>
+  port <%= @port %>
+  timeout  <%= @timeout %>
+  user      <%= @user %>
+  password  <%= @password %>
+  queue     <%= @queue %>
+  exchange  <%= @exchange %>
+  queue_durable        <%= @queue_durable %>
+  queue_exclusive      <%= @queue_exclusive %>
+  queue_auto_delete    <%= @queue_auto_delete %>
+  exchange_durable     <%= @exchange_durable %>
+  exchange_auto_delete <%= @exchange_auto_delete %>
+  channel <%= @channel %>
+  vhost   <%= @vhost %>
+}
