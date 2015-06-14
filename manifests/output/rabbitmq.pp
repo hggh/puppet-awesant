@@ -8,7 +8,7 @@ define awesant::output::rabbitmq (
   $user                 = 'guest',
   $password             = 'guest',
   $queue                = 'logstash',
-  $exchane              = 'logstash',
+  $exchange             = 'logstash',
   $queue_durable        = false,
   $queue_exclusive      = false,
   $queue_auto_delete    = false,
