@@ -1,10 +1,10 @@
 # Puppet: <%= @name %>
 file {
   type    <%= @type %>
-  file    <%= @file.join(', ') %>
+  file    <%= @path %>
   format  <%= @format %>
-<% @skip.each |s| -%>
+<% @skip.each |s| %>
   skip <%= s %>
-<% end -%>
+<% end %>
   <% if @oldlogstashjson == 'yes' %>oldlogstashjson yes<% end %>
 }
