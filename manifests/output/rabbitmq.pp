@@ -14,6 +14,7 @@ define awesant::output::rabbitmq (
   $queue_auto_delete    = false,
   $exchange_durable     = false,
   $exchange_auto_delete = false,
+  $exchange_type        = 'direcet',
   $channel              = 1,
   $vhost                = '/',
   $ensure               = 'present'
