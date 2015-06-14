@@ -9,7 +9,7 @@ class awesant::config {
   $output_include  = $awesant::output_include
 
   file { $awesant_config:
-    ensure  => directory,
+    ensure  => present,
     owner   => 'root',
     group   => 'root',
     mode    => '0755',
