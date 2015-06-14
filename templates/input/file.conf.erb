@@ -1,7 +1,7 @@
 # Puppet: <%= @name %>
 file {
   type    <%= @type %>
-  file    <%= @path %>
+  path    <%= @path %>
   format  <%= @format %>
 <% @skip.each do |s| %>
   skip <%= s %>
