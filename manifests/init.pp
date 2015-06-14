@@ -46,9 +46,9 @@ class awesant(
   }
 
   if ($resources_hiera == true) {
-    create_resources('awesant::input::file', hiera('awesant::input::file', []))
+    create_resources('awesant::input::file', hiera('awesant::input::file', {}))
 
-    create_resources('awesant::output::rabbitmq', hiera('awesant::output::rabbitmq', []))
+    create_resources('awesant::output::rabbitmq', hiera('awesant::output::rabbitmq', {}))
   }
 
 
