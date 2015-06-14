@@ -2,6 +2,7 @@
 #
 class awesant::config {
 
+  $awesant_config  = $awesant::awesant_config
   $awesant_logfile = $awesant::awesant_logfile
   $log_level       = $awesant::log_level
   $input_include   = $awesant::input_include
