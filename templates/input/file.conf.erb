@@ -3,7 +3,7 @@ file {
   type    <%= @type %>
   file    <%= @path %>
   format  <%= @format %>
-<% @skip.each |s| %>
+<% @skip.each do |s| %>
   skip <%= s %>
 <% end %>
   <% if @oldlogstashjson == 'yes' %>oldlogstashjson yes<% end %>
