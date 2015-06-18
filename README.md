@@ -28,6 +28,10 @@ define outputs and inputs via hiera:
         type: 'foobar'
         path: '/var/log/foobar.log'
         format: 'json'
+      'bar':
+        type: 'foobar'
+        path: '/var/log/bar.log'
+        format: 'json'
 
 
 
