@@ -1,6 +1,6 @@
 {
   "name": "hggh-awesant",
-  "version": "0.1",
+  "version": "0.0.1",
   "author": "hggh",
   "summary": "manage your Awesant instance with puppet",
   "license": "GPL",
